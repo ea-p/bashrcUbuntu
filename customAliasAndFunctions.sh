@@ -18,8 +18,9 @@ alias mkdir='mkdir -pv'
 alias sudo='sudo '
 
 #install now aliases
-alias yumn='yum isntall -y '
-alias dnfn='dnf install -y '
+alias install='apt-get install -y '
+alias update='apt-get upgrade -y '
+alias search='apt-cache search '
 
 #List all
 alias ll='ls -lah --color=auto'
